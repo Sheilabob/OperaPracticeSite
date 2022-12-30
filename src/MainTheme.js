@@ -1,13 +1,22 @@
+import { useState } from "react";
+
 function MainTheme() {
-    function playAudio(x) {
-        const audio = new Audio("assets/audio/" + x + ".mp3");
+    const [audio, setAudio] = useState(new Audio("assets/audio/MainOperaTheme.mp3"))
+
+    
+    function playAudio() {
         audio.play();
     };
 
+    function pauseAudio() {
+        audio.pause();
+    }
+
+
     return (
       <div>
-        <h2 onClick={() => {playAudio("MainOperaTheme")}}>Main Theme</h2>
-        <p>What can we do to save the world?</p>
+        <h2 onClick={playAudio}>Main Theme</h2>
+        <p onClick={pauseAudio}>What can we do to save the world?</p>
         <p>What can we do to reduce?</p>
         <p>What can we do to save animals?</p>
         <p>What can we do to reuse?</p>
