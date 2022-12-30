@@ -1,7 +1,12 @@
 function MainTheme() {
+    function playAudio(x) {
+        const audio = new Audio("assets/audio/" + x + ".mp3");
+        audio.play();
+    };
+
     return (
       <div>
-        <h2>Main Theme</h2>
+        <h2 onClick={() => {playAudio("MainOperaTheme")}}>Main Theme</h2>
         <p>What can we do to save the world?</p>
         <p>What can we do to reduce?</p>
         <p>What can we do to save animals?</p>
