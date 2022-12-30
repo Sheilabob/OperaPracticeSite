@@ -15,16 +15,27 @@ function MainTheme() {
 
     return (
       <div>
-        <h2 onClick={playAudio}>Main Theme</h2>
-        <p onClick={pauseAudio}>What can we do to save the world?</p>
-        <p>What can we do to reduce?</p>
-        <p>What can we do to save animals?</p>
-        <p>What can we do to reuse?</p>
-        <p>What can we do to save ourselves?</p>
-        <p>What can we do to recylce?</p>
-        <p>Reduce, Reuse, Recycle</p>
-        <p>Reduce, Reuse, Recycle</p>
-        <p>Reduce, Reuse, Recycle</p>
+        <div class="card">
+            <div class="insideCard words">
+                <h2 onClick={playAudio}>Main Theme</h2>
+                <p onClick={pauseAudio}>What can we do to save the world?<br />
+                What can we do to reduce?<br />
+                What can we do to save animals?<br />
+                What can we do to reuse?<br />
+                What can we do to save ourselves?<br />
+                What can we do to recylce?<br />
+                Reduce, Reuse, Recycle<br />
+                Reduce, Reuse, Recycle<br />
+                Reduce, Reuse, Recycle</p>
+            </div>
+            <div class="insideCard play">
+                Play Button
+            </div>
+            <div class="insideCard pause">
+                Pause Button
+            </div>
+
+        </div>
       </div>
     );
   }
