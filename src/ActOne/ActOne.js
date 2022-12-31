@@ -3,6 +3,7 @@ import IntroActOne from "./IntroActOne";
 import ActOneLine1 from "./Line1";
 import ActOneLine2 from "./Line2";
 import ActOneLine3 from "./Line3";
+import ActOneLine4 from "./Line4";
 
 function ActOne() {
     const [expand, setExpand] = useState(false)
@@ -18,6 +19,7 @@ function ActOne() {
                 <ActOneLine1 />
                 <ActOneLine2 />
                 <ActOneLine3 />
+                <ActOneLine4 />
             </div>
         }
       </div>
