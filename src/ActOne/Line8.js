@@ -1,5 +1,5 @@
 
-function ActOneLine4() {
+function ActOneLine8() {
     const audio = new Audio("assets/audio/MainOperaTheme.mp3")
 
     
@@ -16,7 +16,9 @@ function ActOneLine4() {
       <div>
         <div class="card">
             <div class="insideCard words">
-                <p><strong>Reducing Rya (Lila):</strong> You don't need 50 in EVERY HOUSE.  The whole town won't be in one house at the same time.  If they are, they can bring their own chairs.  You can SHARE chairs.</p>
+                <p><strong>Town Kid 1 (Evalyn):</strong> We need more toys.</p>
+                <p><strong>Town Kid 2 (Macee):</strong> I don't have one that looks like hers yet.</p>
+                <p><strong>Town Kid 3 (Millie):</strong> Mine's getting boring.</p>
             </div>
             <div class="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -30,4 +32,4 @@ function ActOneLine4() {
     );
   }
   
-  export default ActOneLine4;
+  export default ActOneLine8;
