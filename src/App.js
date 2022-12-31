@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header';
 import MainTheme from './MainTheme';
 import IntroActOne from './ActOne/IntroActOne';
+import IntroActTwo from './ActTwo/IntroActTwo';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <MainTheme />
       <IntroActOne />
+      <IntroActTwo />
     </div>
   );
 }
