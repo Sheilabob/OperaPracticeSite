@@ -1,17 +1,25 @@
+import { useState } from "react";
 import IntroActOne from "./IntroActOne";
 import ActOneLine1 from "./Line1";
 import ActOneLine2 from "./Line2";
 import ActOneLine3 from "./Line3";
 
 function ActOne() {
+    const [expand, setExpand] = useState(false)
+
+    const handleClick = () => setExpand(!expand)
 
     return (
       <div className="actContainer">
-        <h1>Act I</h1>
-        <IntroActOne />
-        <ActOneLine1 />
-        <ActOneLine2 />
-        <ActOneLine3 />
+        <h1 onClick={handleClick}>Act I (click to expand or collapse)</h1>
+        {expand && 
+            <div>
+                <IntroActOne />
+                <ActOneLine1 />
+                <ActOneLine2 />
+                <ActOneLine3 />
+            </div>
+        }
       </div>
     );
   }
