@@ -1,5 +1,6 @@
 import { useState } from "react";
 import IntroActOne from "./IntroActOne";
+import SceneInstructionBox from "../SceneInstructionBox";
 import ActOneLine1 from "./Line1";
 import ActOneLine2 from "./Line2";
 import ActOneLine3 from "./Line3";
@@ -21,7 +22,9 @@ function ActOne() {
         <h1 onClick={handleClick}>Act I (click to expand or collapse)</h1>
         {expand && 
             <div>
+
                 <IntroActOne />
+                <SceneInstructionBox description="Scene: a town surrounded by tree stumps and just a few trees.  The townspeople are gathered and all look very sad.  Reducing Rya enters from offstage and walks up to them." />
                 <ActOneLine1 />
                 <ActOneLine2 />
                 <ActOneLine3 />
