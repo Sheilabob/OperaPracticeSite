@@ -29,10 +29,10 @@ function MainTheme() {
                 Reduce, Reuse, Recycle</p>
             </div>
             <div class="insideCard play">
-                Play Button
+                &#9654;&#65039;
             </div>
             <div class="insideCard pause">
-                Pause Button
+                &#9208;&#65039;
             </div>
 
         </div>
