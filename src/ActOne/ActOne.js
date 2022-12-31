@@ -6,7 +6,8 @@ import ActOneLine3 from "./Line3";
 function ActOne() {
 
     return (
-      <div>
+      <div className="actContainer">
+        <h1>Act I</h1>
         <IntroActOne />
         <ActOneLine1 />
         <ActOneLine2 />
