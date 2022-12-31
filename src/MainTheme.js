@@ -1,7 +1,6 @@
-import { useState } from "react";
 
 function MainTheme() {
-    const [audio, setAudio] = useState(new Audio("assets/audio/MainOperaTheme.mp3"))
+    const audio = new Audio("assets/audio/MainOperaTheme.mp3")
 
     
     function playAudio() {
@@ -17,8 +16,8 @@ function MainTheme() {
       <div>
         <div class="card">
             <div class="insideCard words">
-                <h2 onClick={playAudio}>Main Theme</h2>
-                <p onClick={pauseAudio}>What can we do to save the world?<br />
+                <h2>Main Theme</h2>
+                <p>What can we do to save the world?<br />
                 What can we do to reduce?<br />
                 What can we do to save animals?<br />
                 What can we do to reuse?<br />
@@ -28,10 +27,10 @@ function MainTheme() {
                 Reduce, Reuse, Recycle<br />
                 Reduce, Reuse, Recycle</p>
             </div>
-            <div class="insideCard play">
+            <div class="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
             </div>
-            <div class="insideCard pause">
+            <div class="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
             </div>
 
