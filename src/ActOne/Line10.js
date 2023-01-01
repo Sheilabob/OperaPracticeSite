@@ -1,22 +1,31 @@
 
 function ActOneLine10() {
-    const audio = new Audio("assets/audio/MainOperaTheme.mp3")
+    const audio = new Audio("assets/audio/ActOneLine5.mp3")
+    const chant = new Audio("assets/audio/ReduceChant.mp3")
 
     
     function playAudio() {
         audio.play();
     };
 
+    function playChant() {
+        chant.play();
+    };
+
     function pauseAudio() {
         audio.pause();
     }
 
+    function pauseChant() {
+        chant.pause();
+    }
+
 
     return (
-      <div>
-        <div className="card">
+      <div className="doubleParent">
+        <div className="card wholeGroup double">
             <div className="insideCard words">
-                <p><strong>Reducing Rya (Lila):</strong> You don't need more toys. You can borrow and trade to use up less trees.</p>
+                <p><strong>Townspeople:</strong> We can share chairs, share chairs.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -24,7 +33,17 @@ function ActOneLine10() {
             <div className="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
             </div>
-
+        </div>
+        <div className="card wholeGroup double">
+            <div className="insideCard words">
+                <p><strong>Reduce Chant</strong> Chant and use percussion instruments during scene shift.</p>
+            </div>
+            <div className="insideCard play" onClick={playChant}>
+                &#9654;&#65039;
+            </div>
+            <div className="insideCard pause" onClick={pauseChant}>
+                &#9208;&#65039;
+            </div>
         </div>
       </div>
     );
