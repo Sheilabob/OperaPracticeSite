@@ -19,11 +19,11 @@ function ActOne() {
     const handleClick = () => setExpand(!expand)
 
     return (
-      <div className="actContainer">
-        <h1 onClick={handleClick}>Act I (click to expand or collapse)</h1>
-        {expand && 
-            <div>
-
+      <div className="actContainer accordion">
+        <div className="accordion-title" onClick={handleClick}>
+            <h1>Act I (click to expand or collapse)</h1>
+        </div>
+        <div className="accordion-content" aria-expanded={!expand}>
                 <IntroActOne />
                 <SceneInstructionBox description="Scene: a town surrounded by tree stumps and just a few trees.  The townspeople are gathered and all look very sad.  Reducing Rya enters from offstage and walks up to them." />
                 <ActOneLine1 />
@@ -38,7 +38,6 @@ function ActOne() {
                 <ActOneLine10 />
                 <ActOneLine11 />
             </div>
-        }
       </div>
     );
   }
