@@ -1,6 +1,6 @@
 
 function IntroActTwo() {
-    const audio = new Audio("assets/audio/MainOperaTheme.mp3")
+    const audio = new Audio("assets/audio/Reusing-Rarish.mp3")
 
     
     function playAudio() {
@@ -20,7 +20,7 @@ function IntroActTwo() {
                 <p>Now come to the story of Reusing Rarish.<br />
                 One day he visited a mall on Pluto.<br />
                 At this mall, there was too much trash.<br />
-                There was so much that their janitor quit.<br />
+                There was so much that the janitor quit.<br />
                 Rarish helped the people figure out what to do.</p>
             </div>
             <div class="insideCard play" onClick={playAudio}>
