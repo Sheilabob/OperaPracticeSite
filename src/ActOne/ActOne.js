@@ -6,11 +6,12 @@ import ActOneLine2 from "./Line2";
 import ActOneLine3 from "./Line3";
 import ActOneLine4 from "./Line4";
 import ActOneLine5 from "./Line5";
-import ActOneLine6 from "./Line6";
-import ActOneLine7 from "./Line7";
-import ActOneLine8 from "./Line8";
-import ActOneLine9 from "./Line9";
-import ActOneLine10 from "./Line10";
+import ActOneLine6 from "./Line7";
+import ActOneLine7 from "./Line8";
+import ActOneLine8 from "./Line9";
+import ActOneLine9 from "./Line10";
+import ActOneLine10 from "./Line11";
+import ActOneLine11 from "./Line11";
 
 function ActOne() {
     const [expand, setExpand] = useState(false)
@@ -35,6 +36,7 @@ function ActOne() {
                 <ActOneLine8 />
                 <ActOneLine9 />
                 <ActOneLine10 />
+                <ActOneLine11 />
             </div>
         }
       </div>
