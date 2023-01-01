@@ -14,7 +14,7 @@ function ActOneLine2() {
 
     return (
       <div>
-        <div class="card">
+        <div class="card wholeGroup">
             <div class="insideCard words">
                 <p><strong>Townspeople:</strong> All of our trees are getting cut down! All of our trees are getting used up! We are running out of trees</p>
             </div>

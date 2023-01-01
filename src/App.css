@@ -65,3 +65,10 @@ p {
   display: flex;
   background-color: lightgray;
 }
+
+.wholeGroup {
+  background-color: rgb(197, 227, 197);
+  border: 2px solid green;
+  box-shadow: 10px 10px 5px rgb(197, 227, 197);
+
+}

@@ -14,7 +14,7 @@ function MainTheme() {
 
     return (
       <div>
-        <div class="card">
+        <div class="card wholeGroup">
             <div class="insideCard words">
                 <h2>Main Theme</h2>
                 <p>What can we do to save the world?<br />

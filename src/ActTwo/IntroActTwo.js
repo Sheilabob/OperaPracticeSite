@@ -14,7 +14,7 @@ function IntroActTwo() {
 
     return (
       <div>
-        <div class="card">
+        <div class="card wholeGroup">
             <div class="insideCard words">
                 <h2>Intro to Act II: Reusing Rarish</h2>
                 <p>Now come to the story of Reusing Rarish.<br />

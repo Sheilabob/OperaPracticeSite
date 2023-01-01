@@ -14,7 +14,7 @@ function IntroActThree() {
 
     return (
       <div>
-        <div class="card">
+        <div class="card wholeGroup">
             <div class="insideCard words">
                 <h2>Intro to Act III: Recycling Ruby</h2>
                 <p>Finally the story of Recycling Ruby<br />

@@ -14,7 +14,7 @@ function IntroActOne() {
 
     return (
       <div>
-        <div class="card">
+        <div class="card wholeGroup">
             <div class="insideCard words">
                 <h2>Intro to Act I: Reducing Rya</h2>
                 <p>Join us for the story of Reducing Rya.<br />

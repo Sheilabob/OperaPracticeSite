@@ -14,9 +14,9 @@ function ActOneLine7() {
 
     return (
       <div>
-        <div class="card">
+        <div class="card wholeGroup">
             <div class="insideCard words">
-                <p><strong>Townspeople:</strong> Ooooooooohhhhhhh!</p>
+                <p><strong>Townspeople:</strong> (spoken) Ooooooooohhhhhhh!</p>
             </div>
             <div class="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
