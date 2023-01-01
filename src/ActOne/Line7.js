@@ -1,6 +1,6 @@
 
 function ActOneLine7() {
-    const audio = new Audio("assets/audio/MainOperaTheme.mp3")
+    const audio = new Audio("assets/audio/ActOneLine7.mp3")
 
     
     function playAudio() {
