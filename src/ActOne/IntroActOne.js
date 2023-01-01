@@ -14,8 +14,8 @@ function IntroActOne() {
 
     return (
       <div>
-        <div class="card wholeGroup">
-            <div class="insideCard words">
+        <div className="card wholeGroup">
+            <div className="insideCard words">
                 <h2>Intro to Act I: Reducing Rya</h2>
                 <p>Join us for the story of Reducing Rya.<br />
                 One day she visited a place called Treeville.<br />
@@ -23,10 +23,10 @@ function IntroActOne() {
                 All of the trees were getting cut down.<br />
                 Rya helped the town figure out what to do.</p>
             </div>
-            <div class="insideCard play" onClick={playAudio}>
+            <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
             </div>
-            <div class="insideCard pause" onClick={pauseAudio}>
+            <div className="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
             </div>
 

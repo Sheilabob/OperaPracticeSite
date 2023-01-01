@@ -14,14 +14,14 @@ function ActOneLine2() {
 
     return (
       <div>
-        <div class="card wholeGroup">
-            <div class="insideCard words">
+        <div className="card wholeGroup">
+            <div className="insideCard words">
                 <p><strong>Townspeople:</strong> All of our trees are getting cut down! All of our trees are getting used up! We are running out of trees</p>
             </div>
-            <div class="insideCard play" onClick={playAudio}>
+            <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
             </div>
-            <div class="insideCard pause" onClick={pauseAudio}>
+            <div className="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
             </div>
 

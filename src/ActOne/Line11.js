@@ -1,5 +1,5 @@
 
-function ActOneLine10() {
+function ActOneLine11() {
     const audio = new Audio("assets/audio/MainOperaTheme.mp3")
 
     
@@ -16,7 +16,7 @@ function ActOneLine10() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Reducing Rya (Lila):</strong> You don't need more toys. You can borrow and trade to use up less trees.</p>
+                <p><strong>Roosevell, Town Reporter (Jaidan):</strong> Reducing Rya helped them save their trees by sharing and reducing and they never had to worry about their trees again.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -30,4 +30,4 @@ function ActOneLine10() {
     );
   }
   
-  export default ActOneLine10;
+  export default ActOneLine11;

@@ -14,16 +14,14 @@ function ActOneLine8() {
 
     return (
       <div>
-        <div class="card">
-            <div class="insideCard words">
-                <p><strong>Town Kid 1 (Evalyn):</strong> We need more toys.</p>
-                <p><strong>Town Kid 2 (Macee):</strong> I don't have one that looks like hers yet.</p>
-                <p><strong>Town Kid 3 (Millie):</strong> Mine's getting boring.</p>
+        <div className="card wholeGroup">
+            <div className="insideCard words">
+                <p><strong>Townspeople:</strong> (spoken) Ooooooooohhhhhhh!</p>
             </div>
-            <div class="insideCard play" onClick={playAudio}>
+            <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
             </div>
-            <div class="insideCard pause" onClick={pauseAudio}>
+            <div className="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
             </div>
 

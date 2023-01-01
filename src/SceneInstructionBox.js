@@ -2,7 +2,7 @@ function SceneInstructionBox({description}) {
     
     return (
       <div>
-        <div class="scene">
+        <div className="scene">
             <p>{description}</p>
         </div>
       </div>

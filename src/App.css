@@ -72,3 +72,11 @@ p {
   box-shadow: 10px 10px 5px rgb(197, 227, 197);
 
 }
+
+.doubleParent {
+  display: flex;
+}
+
+.double {
+  flex-basis: 50%;
+}

@@ -14,8 +14,8 @@ function MainTheme() {
 
     return (
       <div>
-        <div class="card wholeGroup">
-            <div class="insideCard words">
+        <div className="card wholeGroup">
+            <div className="insideCard words">
                 <h2>Main Theme</h2>
                 <p>What can we do to save the world?<br />
                 What can we do to reduce?<br />
@@ -27,10 +27,10 @@ function MainTheme() {
                 Reduce, Reuse, Recycle<br />
                 Reduce, Reuse, Recycle</p>
             </div>
-            <div class="insideCard play" onClick={playAudio}>
+            <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
             </div>
-            <div class="insideCard pause" onClick={pauseAudio}>
+            <div className="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
             </div>
 

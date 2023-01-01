@@ -14,8 +14,8 @@ function IntroActThree() {
 
     return (
       <div>
-        <div class="card wholeGroup">
-            <div class="insideCard words">
+        <div className="card wholeGroup">
+            <div className="insideCard words">
                 <h2>Intro to Act III: Recycling Ruby</h2>
                 <p>Finally the story of Recycling Ruby<br />
                 There were some things going on at school.<br />
@@ -23,10 +23,10 @@ function IntroActThree() {
                 When they could have been recycled.<br />
                 Ruby helped make sure all her classmates recycled!</p>
             </div>
-            <div class="insideCard play" onClick={playAudio}>
+            <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
             </div>
-            <div class="insideCard pause" onClick={pauseAudio}>
+            <div className="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
             </div>
 

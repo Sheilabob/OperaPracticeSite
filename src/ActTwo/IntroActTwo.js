@@ -14,8 +14,8 @@ function IntroActTwo() {
 
     return (
       <div>
-        <div class="card wholeGroup">
-            <div class="insideCard words">
+        <div className="card wholeGroup">
+            <div className="insideCard words">
                 <h2>Intro to Act II: Reusing Rarish</h2>
                 <p>Now come to the story of Reusing Rarish.<br />
                 One day he visited a mall on Pluto.<br />
@@ -23,10 +23,10 @@ function IntroActTwo() {
                 There was so much that the janitor quit.<br />
                 Rarish helped the people figure out what to do.</p>
             </div>
-            <div class="insideCard play" onClick={playAudio}>
+            <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
             </div>
-            <div class="insideCard pause" onClick={pauseAudio}>
+            <div className="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
             </div>
 
