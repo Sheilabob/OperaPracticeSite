@@ -1,6 +1,6 @@
 
-function ActOneLine9() {
-    const audio = new Audio("assets/audio/ActOneLine9.mp3")
+function ActOneLine11() {
+    const audio = new Audio("assets/audio/ActOneLine12.mp3")
 
     
     function playAudio() {
@@ -16,9 +16,7 @@ function ActOneLine9() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Town Kid 1 (Evalyn):</strong> We need more toys.</p>
-                <p><strong>Town Kid 2 (Macee):</strong> I don't have one that looks like hers yet.</p>
-                <p><strong>Town Kid 3 (Millie):</strong> Mine's getting boring.</p>
+                <p><strong>Roosevell, Town Reporter (Jaidan):</strong> Reducing Rya helped them save their trees by sharing and reducing and they never had to worry about their trees again.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -32,4 +30,4 @@ function ActOneLine9() {
     );
   }
   
-  export default ActOneLine9;
+  export default ActOneLine11;
