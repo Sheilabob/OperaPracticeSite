@@ -21,10 +21,10 @@ function ActOne() {
 
     return (
       <div className="actContainer accordion">
-        <div className="accordion-title" onClick={handleClick}>
-            <h1>Act I (click to expand or collapse)</h1>
-            <h1 className="plus" aria-expanded={expand}>+</h1>
-            <h1 className="minus" aria-expanded={!expand}>-</h1>
+        <div className="accordion-title">
+            <h1>Act I</h1>
+            <h1 className="plus" aria-expanded={expand} onClick={handleClick}>+</h1>
+            <h1 className="minus" aria-expanded={!expand} onClick={handleClick}>-</h1>
         </div>
         <div className="accordion-content" aria-expanded={!expand}>
                 <IntroActOne />

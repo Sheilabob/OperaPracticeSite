@@ -104,6 +104,10 @@ p {
   transition: max-height 1s cubic-bezier(0, 1, 0, 1);
 }
 
+.plus {
+  font-size: 38px;
+}
+
 .plus[aria-expanded="true"] {
   display: none;
 }
@@ -114,5 +118,7 @@ p {
 
 .minus[aria-expanded="false"] {
   display: inline;
+  font-size: 38px;
+
 }
 
