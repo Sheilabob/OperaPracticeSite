@@ -90,6 +90,7 @@ p {
 
 .accordion-title {
   display: flex;
+  justify-content: space-between;
 }
 
 .accordion-content {
@@ -102,3 +103,16 @@ p {
   max-height: 0px;
   transition: max-height 1s cubic-bezier(0, 1, 0, 1);
 }
+
+.plus[aria-expanded="true"] {
+  display: none;
+}
+
+.minus {
+  display: none;
+}
+
+.minus[aria-expanded="false"] {
+  display: inline;
+}
+
