@@ -1,6 +1,6 @@
 import { useState } from "react";
-// import IntroActOne from "./IntroActOne";
-// import SceneInstructionBox from "../SceneInstructionBox";
+import IntroActTwo from "./IntroActTwo";
+import SceneInstructionBox from "../SceneInstructionBox";
 // import ActOneLine1 from "./Line1";
 // import ActOneLine2 from "./Line2";
 // import ActOneLine3 from "./Line3";
@@ -38,20 +38,20 @@ function ActTwo() {
             <h1 className="minus" aria-expanded={!expand} onClick={handleClick}>-</h1>
         </div>
         <div className="accordion-content" aria-expanded={!expand}>
-                {/*<div className="card fullact">
+            {/* <div className="card fullact">
                 <div className="insideCard words">
-                <h2><strong>Full Act</strong></h2>
-            </div>
-                <div className="insideCard play" onClick={playAudio}>
-                &#9654;&#65039;
-            </div>
-            <div className="insideCard pause" onClick={pauseAudio}>
-                &#9208;&#65039;
-            </div>
+                    <h2><strong>Full Act</strong></h2>
                 </div>
-                <IntroActOne />
-                <SceneInstructionBox description="Scene: a town surrounded by tree stumps and just a few trees.  The townspeople are gathered and all look very sad.  Reducing Rya enters from offstage and walks up to them." />
-                <ActOneLine1 />
+                <div className="insideCard play" onClick={playAudio}>
+                    &#9654;&#65039;
+                </div>
+                <div className="insideCard pause" onClick={pauseAudio}>
+                    &#9208;&#65039;
+                </div>
+            </div> */}
+                <IntroActTwo />
+                <SceneInstructionBox description="Scene: a pants storefront. People are coming out of the store wearing new pants and throwing their old ones in the trash.   Reusing Rarish watches in confusion and then approaches a group who was about to toss their pants." />
+                {/* <ActTwoLine1 />
                 <ActOneLine2 />
                 <ActOneLine3 />
                 <ActOneLine4 />
@@ -62,8 +62,8 @@ function ActTwo() {
                 <ActOneLine9 />
                 <ActOneLine10 />
                 <ActOneLine11 />
-                <ActOneLine12 />
-            */}
+                <ActOneLine12 /> */}
+           
             </div> 
       </div>
     );
