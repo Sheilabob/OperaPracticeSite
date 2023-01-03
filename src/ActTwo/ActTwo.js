@@ -1,8 +1,8 @@
 import { useState } from "react";
 import IntroActTwo from "./IntroActTwo";
 import SceneInstructionBox from "../SceneInstructionBox";
-// import ActOneLine1 from "./Line1";
-// import ActOneLine2 from "./Line2";
+import ActTwoLine1 from "./Line1";
+import ActTwoLine2 from "./Line2";
 // import ActOneLine3 from "./Line3";
 // import ActOneLine4 from "./Line4";
 // import ActOneLine5 from "./Line5";
@@ -51,9 +51,9 @@ function ActTwo() {
             </div> */}
                 <IntroActTwo />
                 <SceneInstructionBox description="Scene: a pants storefront. People are coming out of the store wearing new pants and throwing their old ones in the trash.   Reusing Rarish watches in confusion and then approaches a group who was about to toss their pants." />
-                {/* <ActTwoLine1 />
-                <ActOneLine2 />
-                <ActOneLine3 />
+                <ActTwoLine1 />
+                <ActTwoLine2 />
+                {/* <ActOneLine3 />
                 <ActOneLine4 />
                 <ActOneLine5 />
                 <ActOneLine6 />
