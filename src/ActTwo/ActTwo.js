@@ -15,9 +15,9 @@ import { useState } from "react";
 // import ActOneLine12 from "./Line12";
 
 function ActTwo() {
-    // const [expand, setExpand] = useState(false)
+    const [expand, setExpand] = useState(false)
 
-    // const handleClick = () => setExpand(!expand)
+    const handleClick = () => setExpand(!expand)
 
     // const audio = new Audio("assets/audio/FullActOne.mp3")
 
@@ -34,11 +34,11 @@ function ActTwo() {
       <div className="actContainer accordion">
         <div className="accordion-title">
             <h1>Act II (Coming Soon!)</h1>
-            {/* <h1 className="plus" aria-expanded={expand} onClick={handleClick}>+</h1>
-            <h1 className="minus" aria-expanded={!expand} onClick={handleClick}>-</h1> */}
+            <h1 className="plus" aria-expanded={expand} onClick={handleClick}>+</h1>
+            <h1 className="minus" aria-expanded={!expand} onClick={handleClick}>-</h1>
         </div>
-        {/* <div className="accordion-content" aria-expanded={!expand}>
-                <div className="card fullact">
+        <div className="accordion-content" aria-expanded={!expand}>
+                {/*<div className="card fullact">
                 <div className="insideCard words">
                 <h2><strong>Full Act</strong></h2>
             </div>
@@ -63,7 +63,8 @@ function ActTwo() {
                 <ActOneLine10 />
                 <ActOneLine11 />
                 <ActOneLine12 />
-            </div> */}
+            */}
+            </div> 
       </div>
     );
   }
