@@ -3,8 +3,8 @@ import IntroActTwo from "./IntroActTwo";
 import SceneInstructionBox from "../SceneInstructionBox";
 import ActTwoLine1 from "./Line1";
 import ActTwoLine2 from "./Line2";
-// import ActOneLine3 from "./Line3";
-// import ActOneLine4 from "./Line4";
+import ActTwoLine3 from "./Line3";
+import ActTwoLine4 from "./Line4";
 // import ActOneLine5 from "./Line5";
 // import ActOneLine6 from "./Line6";
 // import ActOneLine7 from "./Line7";
@@ -53,9 +53,9 @@ function ActTwo() {
                 <SceneInstructionBox description="Scene: a pants storefront. People are coming out of the store wearing new pants and throwing their old ones in the trash.   Reusing Rarish watches in confusion and then approaches a group who was about to toss their pants." />
                 <ActTwoLine1 />
                 <ActTwoLine2 />
-                {/* <ActOneLine3 />
-                <ActOneLine4 />
-                <ActOneLine5 />
+                <ActTwoLine3 />
+                <ActTwoLine4 />
+                {/* <ActOneLine5 />
                 <ActOneLine6 />
                 <ActOneLine7 />
                 <ActOneLine8 />

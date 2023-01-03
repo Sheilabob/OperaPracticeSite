@@ -1,5 +1,5 @@
 
-function ActOneLine3() {
+function ActTwoLine3() {
     const audio = new Audio("assets/audio/Act1Line3.mp3")
 
     
@@ -16,7 +16,7 @@ function ActOneLine3() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Kid Mayor (Tristan):</strong> We need more trees.  We need to make 50 chairs in every house 'cause there are 50 people in our town!</p>
+                <p><strong>Reusing Rarish (Colton):</strong> You could wash them.  It gets cheese and mud off and then you can wear them again. Wash and reuse.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -30,4 +30,4 @@ function ActOneLine3() {
     );
   }
   
-  export default ActOneLine3;
+  export default ActTwoLine3;

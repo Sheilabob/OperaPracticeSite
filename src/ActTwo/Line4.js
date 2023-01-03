@@ -1,5 +1,5 @@
 
-function ActOneLine4() {
+function ActTwoLine4() {
     const audio = new Audio("assets/audio/Act1Line4.mp3")
 
     
@@ -16,7 +16,7 @@ function ActOneLine4() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Reducing Rya (Lila):</strong> You don't need 50 in EVERY HOUSE.  The whole town won't be in one house at the same time.  If they are, they can bring their own chairs.  You can SHARE chairs.</p>
+                <p><strong>Customers (Kaylee, Darian, and Hadlee):</strong> Ooooohhhhh, good idea!</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -30,4 +30,4 @@ function ActOneLine4() {
     );
   }
   
-  export default ActOneLine4;
+  export default ActTwoLine4;
