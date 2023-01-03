@@ -24,7 +24,7 @@ function ActOneLine8() {
       <div className="doubleParent">
         <div className="card wholeGroup double">
             <div className="insideCard words">
-                <p><strong>Townspeople:</strong> (spoken) Ooooooooohhhhhhh!(sung) Use it all up, use it all up!</p>
+                <p><strong>Townspeople:</strong> (spoken:)Ooooooooohhhhhhh! (sung:)Use it all up, use it all up!</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;

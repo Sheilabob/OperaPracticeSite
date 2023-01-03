@@ -1,9 +1,9 @@
 import './App.css';
 import Header from './Header';
 import MainTheme from './MainTheme';
-import IntroActTwo from './ActTwo/IntroActTwo';
-import IntroActThree from './ActThree/IntroActThree';
 import ActOne from './ActOne/ActOne';
+import ActTwo from './ActTwo/ActTwo';
+import ActThree from './ActThree/ActThree';
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       <Header />
       <MainTheme />
       <ActOne />
-      <IntroActTwo />
-      <IntroActThree />
+      <ActTwo />
+      <ActThree />
     </div>
   );
 }

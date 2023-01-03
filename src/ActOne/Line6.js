@@ -16,7 +16,7 @@ function ActOneLine6() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Ms. Rose, Town Teacher (Elena):</strong> We're runnning out of trees 'cause everyone is using hundreds of pieces of paper every day!</p>
+                <p><strong>Ms. Rose, Town Teacher (Elena):</strong> We are runnning out of trees 'cause everyone is using hundreds of pieces of paper every day!</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;

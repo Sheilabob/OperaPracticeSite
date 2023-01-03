@@ -16,7 +16,7 @@ function ActOneLine11() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Roosevell, Town Reporter (Jaidan):</strong> Reducing Rya helped them save their trees by sharing and reducing and they never had to worry about their trees again.</p>
+                <p><strong>Roosevell, Town Reporter (Jaidan):</strong> Reducing Rya helped them save their trees by sharing and reducing. They never had to worry about their trees again.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
