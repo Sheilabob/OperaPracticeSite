@@ -14,7 +14,7 @@ function ActTwoLine2() {
 
     return (
       <div>
-        <div className="card wholeGroup">
+        <div className="card">
         <div className="insideCard words">
                 <p><strong>Customer 1 (Kaylee):</strong> Mine got dirty.  I got cheese on them.</p>
                 <p><strong>Customer 2 (Darian):</strong> Mine too.  They got mud on them.</p>
