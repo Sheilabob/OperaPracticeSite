@@ -1,5 +1,5 @@
 
-function ActOneLine5() {
+function ActTwoLine5() {
     const audio = new Audio("assets/audio/ActOneLine5.mp3")
     const chant = new Audio("assets/audio/ReduceChant.mp3")
 
@@ -25,7 +25,7 @@ function ActOneLine5() {
       <div className="doubleParent">
         <div className="card wholeGroup double">
             <div className="insideCard words">
-                <p><strong>Townspeople:</strong> We can share chairs, share chairs.</p>
+                <p><strong>Townspeople:</strong> **wash and reuse song**</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -36,7 +36,7 @@ function ActOneLine5() {
         </div>
         <div className="card wholeGroup double">
             <div className="insideCard words">
-                <p><strong>Reduce Chant</strong> Chant and use percussion instruments during scene shift.</p>
+                <p><strong>Reuse Chant</strong> Chant and use percussion instruments during scene shift.</p>
             </div>
             <div className="insideCard play" onClick={playChant}>
                 &#9654;&#65039;
@@ -49,4 +49,4 @@ function ActOneLine5() {
     );
   }
   
-  export default ActOneLine5;
+  export default ActTwoLine5;
