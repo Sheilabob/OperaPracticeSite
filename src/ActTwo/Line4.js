@@ -1,6 +1,6 @@
 
 function ActTwoLine4() {
-    const audio = new Audio("assets/audio/Act1Line4.mp3")
+    const audio = new Audio("assets/audio/ActTwoLine4.mp3")
 
     
     function playAudio() {

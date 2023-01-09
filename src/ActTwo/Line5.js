@@ -1,7 +1,7 @@
 
 function ActTwoLine5() {
-    const audio = new Audio("assets/audio/ActOneLine5.mp3")
-    const chant = new Audio("assets/audio/ReduceChant.mp3")
+    const audio = new Audio("assets/audio/ActTwoLine4.mp3")
+    const chant = new Audio("assets/audio/ActTwoLine5.mp3")
 
     
     function playAudio() {
@@ -25,7 +25,7 @@ function ActTwoLine5() {
       <div className="doubleParent">
         <div className="card wholeGroup double">
             <div className="insideCard words">
-                <p><strong>Townspeople:</strong> **wash and reuse song**</p>
+                <p><strong>Customers:</strong> Wash and reuse things again, wash and reuse things again.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
