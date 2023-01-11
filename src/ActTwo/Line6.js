@@ -1,6 +1,6 @@
 
-function ActOneLine6() {
-    const audio = new Audio("assets/audio/ActOneLine6.mp3")
+function ActTwoLine6() {
+    const audio = new Audio("assets/audio/ActTwoLine6.mp3")
 
     
     function playAudio() {
@@ -16,7 +16,7 @@ function ActOneLine6() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Ms. Rose, Town Teacher (Elena):</strong> We are runnning out of trees 'cause everyone is using hundreds of pieces of paper every day!</p>
+                <p><strong>Cafe Worker (Jaidan):</strong> Look at this mess! And we're running out of food containers!</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -30,4 +30,4 @@ function ActOneLine6() {
     );
   }
   
-  export default ActOneLine6;
+  export default ActTwoLine6;
