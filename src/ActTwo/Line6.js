@@ -16,7 +16,7 @@ function ActTwoLine6() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Cafe Worker (Jaidan):</strong> Look at this mess! And we're running out of food containers!</p>
+                <p><strong>Caf&eacute; Worker (Jaidan):</strong> Look at this mess! And we're running out of food containers!</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;

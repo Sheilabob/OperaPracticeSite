@@ -1,6 +1,6 @@
 
-function ActOneLine7() {
-    const audio = new Audio("assets/audio/ActOneLine7.mp3")
+function ActTwoLine7() {
+    const audio = new Audio("assets/audio/ActTwoLine7.mp3")
 
     
     function playAudio() {
@@ -16,7 +16,8 @@ function ActOneLine7() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Reducing Rya (Lila):</strong> You need to use the front and the back and use it all up.</p>
+            <p><strong>Customer 1 (Hadley):</strong> We're running out of places to put them.</p>
+                <p><strong>Customer 2 (Odin):</strong> And it's starting to smell bad, like yesterday's food.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -30,4 +31,4 @@ function ActOneLine7() {
     );
   }
   
-  export default ActOneLine7;
+  export default ActTwoLine7;
