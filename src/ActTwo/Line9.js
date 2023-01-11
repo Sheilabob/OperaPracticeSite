@@ -1,6 +1,6 @@
 
-function ActOneLine9() {
-    const audio = new Audio("assets/audio/ActOneLine9.mp3")
+function ActTwoLine9() {
+    const audio = new Audio("assets/audio/ActTwoLine9.mp3")
 
     
     function playAudio() {
@@ -16,9 +16,7 @@ function ActOneLine9() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Town Kid 1 (Evalyn):</strong> We need more toys.</p>
-                <p><strong>Town Kid 2 (Macee):</strong> I don't have one that looks like hers yet.</p>
-                <p><strong>Town Kid 3 (Millie):</strong> Mine's getting boring.</p>
+                <p><strong>Caf&eacute; Worker (Jaidan):</strong> And if you bring them with you tomorrow, I don't need new ones, and I won't run out.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -32,4 +30,4 @@ function ActOneLine9() {
     );
   }
   
-  export default ActOneLine9;
+  export default ActTwoLine9;
