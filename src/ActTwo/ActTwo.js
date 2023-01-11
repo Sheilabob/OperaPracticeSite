@@ -9,7 +9,7 @@ import ActTwoLine6 from "./Line6";
 import ActTwoLine7 from "./Line7";
 import ActTwoLine8 from "./Line8";
 import ActTwoLine9 from "./Line9";
-// import ActOneLine10 from "./Line10";
+import ActTwoLine10 from "./Line10";
 // import ActOneLine11 from "./Line11";
 // import ActOneLine12 from "./Line12";
 
@@ -58,8 +58,8 @@ function ActTwo() {
                 <ActTwoLine7 />
                 <ActTwoLine8 />
                 <ActTwoLine9 />
-                {/* <ActOneLine10 />
-                <ActOneLine11 />
+                <ActTwoLine10 />
+                {/* <ActOneLine11 />
                 <ActOneLine12 /> */}
            
             </div> 
