@@ -11,7 +11,7 @@ import ActTwoLine8 from "./Line8";
 import ActTwoLine9 from "./Line9";
 import ActTwoLine10 from "./Line10";
 import ActTwoLine11 from "./Line11";
-// import ActOneLine12 from "./Line12";
+import ActTwoLine12 from "./Line12";
 
 function ActTwo() {
     const [expand, setExpand] = useState(false)
@@ -60,7 +60,7 @@ function ActTwo() {
                 <ActTwoLine9 />
                 <ActTwoLine10 />
                 <ActTwoLine11 />
-                {/* <ActOneLine12 /> */}
+                <ActTwoLine12 />
            
             </div> 
       </div>
