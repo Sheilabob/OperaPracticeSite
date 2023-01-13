@@ -16,7 +16,7 @@ function ActTwoLine1() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Reusing Rarish (Colton):</strong> Why are you all throwing your pants away?</p>
+                <p><strong>Reusing Rarish (Colton):</strong> Why are you throwing your pants away?</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;

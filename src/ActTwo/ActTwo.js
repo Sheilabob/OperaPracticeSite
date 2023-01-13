@@ -20,7 +20,7 @@ function ActTwo() {
 
     const handleClick = () => setExpand(!expand)
 
-    const audio = new Audio("assets/audio/FullActOne.mp3")
+    const audio = new Audio("assets/audio/ActTwo.mp3")
 
     
     function playAudio() {

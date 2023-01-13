@@ -16,7 +16,7 @@ function ActTwoLine3() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Reusing Rarish (Colton):</strong> You could wash them.  It gets cheese and mud off and then you can wear them again. Wash and reuse.</p>
+                <p><strong>Reusing Rarish (Colton):</strong> You could wash them.  It gets cheese and mud off and then you can wear them again.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
