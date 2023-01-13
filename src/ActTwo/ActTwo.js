@@ -12,6 +12,8 @@ import ActTwoLine9 from "./Line9";
 import ActTwoLine10 from "./Line10";
 import ActTwoLine11 from "./Line11";
 import ActTwoLine12 from "./Line12";
+import ActTwoLine13 from "./Line13";
+import ActTwoLine14 from "./Line14";
 
 function ActTwo() {
     const [expand, setExpand] = useState(false)
@@ -61,7 +63,8 @@ function ActTwo() {
                 <ActTwoLine10 />
                 <ActTwoLine11 />
                 <ActTwoLine12 />
-           
+                <ActTwoLine13 />
+                <ActTwoLine14 />
             </div> 
       </div>
     );

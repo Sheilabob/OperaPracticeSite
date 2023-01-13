@@ -16,7 +16,9 @@ function ActTwoLine13() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Reusing Rarish (Colton):</strong> Maybe the kids playing could help do something with the trash.</p>
+                <p><strong>Kid 1 (Elena):</strong> Oooh, yes - it might be fun to use these things.</p>
+                <p><strong>Kid 2 (Macee):</strong> Yeah, we could play a game with them.</p>
+                <p><strong>Kid 3 (Iker):</strong> Or, we can make a sculpture!</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
