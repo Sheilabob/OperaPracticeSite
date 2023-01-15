@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import IntroActOne from "./IntroActOne";
+import IntroActThree from "./IntroActThree";
 // import SceneInstructionBox from "../SceneInstructionBox";
 // import ActOneLine1 from "./Line1";
 // import ActOneLine2 from "./Line2";
@@ -36,7 +36,7 @@ function ActThree() {
             <h1>Act III (Coming Soon!)</h1>
             {/* <h1 className="plus" aria-expanded={expand} onClick={handleClick}>+</h1>
             <h1 className="minus" aria-expanded={!expand} onClick={handleClick}>-</h1> */}
-        </div>
+        {/* </div> */}
         {/* <div className="accordion-content" aria-expanded={!expand}>
                 <div className="card fullact">
                 <div className="insideCard words">
@@ -47,11 +47,11 @@ function ActThree() {
             </div>
             <div className="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
-            </div>
-                </div>
-                <IntroActOne />
-                <SceneInstructionBox description="Scene: a town surrounded by tree stumps and just a few trees.  The townspeople are gathered and all look very sad.  Reducing Rya enters from offstage and walks up to them." />
-                <ActOneLine1 />
+            </div> */}
+                {/* </div> */}
+                <IntroActThree />
+                {/* <SceneInstructionBox description="Scene: a town surrounded by tree stumps and just a few trees.  The townspeople are gathered and all look very sad.  Reducing Rya enters from offstage and walks up to them." /> */}
+                {/* <ActOneLine1 />
                 <ActOneLine2 />
                 <ActOneLine3 />
                 <ActOneLine4 />
@@ -62,9 +62,9 @@ function ActThree() {
                 <ActOneLine9 />
                 <ActOneLine10 />
                 <ActOneLine11 />
-                <ActOneLine12 />
-            </div> */}
-      </div>
+                <ActOneLine12 /> */}
+            </div> 
+     </div>
     );
   }
   

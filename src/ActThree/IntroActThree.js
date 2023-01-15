@@ -1,6 +1,6 @@
 
 function IntroActThree() {
-    const audio = new Audio("assets/audio/MainOperaTheme.mp3")
+    const audio = new Audio("assets/audio/Recycling-Ruby.mp3")
 
     
     function playAudio() {
