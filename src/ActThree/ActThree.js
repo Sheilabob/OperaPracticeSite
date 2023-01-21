@@ -1,7 +1,7 @@
 import { useState } from "react";
 import IntroActThree from "./IntroActThree";
 // import SceneInstructionBox from "../SceneInstructionBox";
-// import ActOneLine1 from "./Line1";
+import Act3Line1 from "./Line1";
 // import ActOneLine2 from "./Line2";
 // import ActOneLine3 from "./Line3";
 // import ActOneLine4 from "./Line4";
@@ -51,8 +51,8 @@ function ActThree() {
                 {/* </div> */}
                 <IntroActThree />
                 {/* <SceneInstructionBox description="Scene: a town surrounded by tree stumps and just a few trees.  The townspeople are gathered and all look very sad.  Reducing Rya enters from offstage and walks up to them." /> */}
-                {/* <ActOneLine1 />
-                <ActOneLine2 />
+                <Act3Line1 />
+                {/* <ActOneLine2 />
                 <ActOneLine3 />
                 <ActOneLine4 />
                 <ActOneLine5 />
