@@ -15,9 +15,9 @@ import Act3Line1 from "./Line1";
 // import ActOneLine12 from "./Line12";
 
 function ActThree() {
-    // const [expand, setExpand] = useState(false)
+    const [expand, setExpand] = useState(false)
 
-    // const handleClick = () => setExpand(!expand)
+    const handleClick = () => setExpand(!expand)
 
     // const audio = new Audio("assets/audio/FullActOne.mp3")
 
@@ -34,11 +34,11 @@ function ActThree() {
       <div className="actContainer accordion">
         <div className="accordion-title">
             <h1>Act III (Coming Soon!)</h1>
-            {/* <h1 className="plus" aria-expanded={expand} onClick={handleClick}>+</h1>
-            <h1 className="minus" aria-expanded={!expand} onClick={handleClick}>-</h1> */}
-        {/* </div> */}
-        {/* <div className="accordion-content" aria-expanded={!expand}>
-                <div className="card fullact">
+            <h1 className="plus" aria-expanded={expand} onClick={handleClick}>+</h1>
+            <h1 className="minus" aria-expanded={!expand} onClick={handleClick}>-</h1>
+        </div>
+        <div className="accordion-content" aria-expanded={!expand}>
+                {/* <div className="card fullact">
                 <div className="insideCard words">
                 <h2><strong>Full Act</strong></h2>
             </div>
@@ -47,8 +47,8 @@ function ActThree() {
             </div>
             <div className="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
-            </div> */}
-                {/* </div> */}
+            </div>
+                </div> */}
                 <IntroActThree />
                 {/* <SceneInstructionBox description="Scene: a town surrounded by tree stumps and just a few trees.  The townspeople are gathered and all look very sad.  Reducing Rya enters from offstage and walks up to them." /> */}
                 <Act3Line1 />
