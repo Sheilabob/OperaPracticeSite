@@ -1,6 +1,6 @@
 import { useState } from "react";
 import IntroActThree from "./IntroActThree";
-// import SceneInstructionBox from "../SceneInstructionBox";
+import SceneInstructionBox from "../SceneInstructionBox";
 import Act3Line1 from "./Line1";
 import Act3Line2 from "./Line2";
 import Act3Line3 from "./Line3";
@@ -20,16 +20,16 @@ function ActThree() {
 
     const handleClick = () => setExpand(!expand)
 
-    // const audio = new Audio("assets/audio/FullActOne.mp3")
+    const audio = new Audio("assets/audio/ActThree.mp3")
 
     
-    // function playAudio() {
-    //     audio.play();
-    // };
+    function playAudio() {
+        audio.play();
+    };
 
-    // function pauseAudio() {
-    //     audio.pause();
-    // }
+    function pauseAudio() {
+        audio.pause();
+    }
 
     return (
       <div className="actContainer accordion">
@@ -39,7 +39,7 @@ function ActThree() {
             <h1 className="minus" aria-expanded={!expand} onClick={handleClick}>-</h1>
         </div>
         <div className="accordion-content" aria-expanded={!expand}>
-                {/* <div className="card fullact">
+                <div className="card fullact">
                 <div className="insideCard words">
                 <h2><strong>Full Act</strong></h2>
             </div>
@@ -49,9 +49,9 @@ function ActThree() {
             <div className="insideCard pause" onClick={pauseAudio}>
                 &#9208;&#65039;
             </div>
-                </div> */}
+                </div>
                 <IntroActThree />
-                {/* <SceneInstructionBox description="Scene: a town surrounded by tree stumps and just a few trees.  The townspeople are gathered and all look very sad.  Reducing Rya enters from offstage and walks up to them." /> */}
+                <SceneInstructionBox description="Scene: a school cafeteria.  Students are all lined up, placing their trays in a bin for cleaning and throwing away their forks." />
                 <Act3Line1 />
                 <Act3Line2 />
                 <Act3Line3 />
