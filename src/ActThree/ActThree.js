@@ -34,7 +34,7 @@ function ActThree() {
     return (
       <div className="actContainer accordion">
         <div className="accordion-title">
-            <h1>Act III (Coming Soon!)</h1>
+            <h1>Act III</h1>
             <h1 className="plus" aria-expanded={expand} onClick={handleClick}>+</h1>
             <h1 className="minus" aria-expanded={!expand} onClick={handleClick}>-</h1>
         </div>
@@ -67,6 +67,8 @@ function ActThree() {
                 <Act3Line11 />
                 <Act3Line12 />
                 <Act3Line13 />
+                <Act3Line4 />
+                <Act3Line5 />
             </div> 
      </div>
     );
