@@ -13,6 +13,7 @@ import Act3Line9 from "./Line9";
 import Act3Line10 from "./Line10";
 import Act3Line11 from "./Line11";
 import Act3Line12 from "./Line12";
+import Act3Line13 from "./Line13";
 
 function ActThree() {
     const [expand, setExpand] = useState(false)
@@ -65,6 +66,7 @@ function ActThree() {
                 <Act3Line10 />
                 <Act3Line11 />
                 <Act3Line12 />
+                <Act3Line13 />
             </div> 
      </div>
     );
