@@ -16,7 +16,7 @@ function Act3Line10() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Teacher(Greayson):</strong> Great job decorating for the party, kids.  I like how creative you were to decorate with toilet paper.</p>
+                <p><strong>Teacher(Greyson):</strong> Great job decorating for the party, kids.  I like how creative you were to decorate with toilet paper.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;

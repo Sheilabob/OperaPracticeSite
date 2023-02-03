@@ -18,7 +18,7 @@ function ActTwoLine2() {
         <div className="insideCard words">
                 <p><strong>Customer 1 (Kaylee):</strong> Mine got dirty.  I got cheese on them.</p>
                 <p><strong>Customer 2 (Darian):</strong> Mine too.  They got mud on them.</p>
-                <p><strong>Customer 3 (Hadlee):</strong> These are yesterday's pants. Why would I wear yesterday's pants?</p>
+                <p><strong>Customer 3 (Hadley):</strong> These are yesterday's pants. Why would I wear yesterday's pants?</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;

@@ -16,7 +16,7 @@ function Act3Line11() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Recycling Ruby(Evalyn)</strong> What did you do with all the toilet paper rolls?</p>
+                <p><strong>Recycling Ruby(Evelyn)</strong> What did you do with all the toilet paper rolls?</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;

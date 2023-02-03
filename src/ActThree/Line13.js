@@ -16,7 +16,7 @@ function Act3Line13() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Recycling Ruby(Evalyn)</strong> Well, those can be recycled, too!</p>
+                <p><strong>Recycling Ruby(Evelyn)</strong> Well, those can be recycled, too!</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;

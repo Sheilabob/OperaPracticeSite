@@ -16,8 +16,8 @@ function ActOneLine9() {
       <div>
         <div className="card">
             <div className="insideCard words">
-                <p><strong>Town Kid 1 (Evalyn):</strong> We need more toys.</p>
-                <p><strong>Town Kid 2 (Macee):</strong> I don't have one that looks like hers yet.</p>
+                <p><strong>Town Kid 1 (Evelyn):</strong> We need more toys.</p>
+                <p><strong>Town Kid 2 (Maecie):</strong> I don't have one that looks like hers yet.</p>
                 <p><strong>Town Kid 3 (Millie):</strong> Mine's getting boring.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
