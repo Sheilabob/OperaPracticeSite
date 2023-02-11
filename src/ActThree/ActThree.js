@@ -14,6 +14,9 @@ import Act3Line10 from "./Line10";
 import Act3Line11 from "./Line11";
 import Act3Line12 from "./Line12";
 import Act3Line13 from "./Line13";
+import Act3Line4B from "./Line4B";
+import Act3Line4C from "./Line4C";
+
 
 function ActThree() {
     const [expand, setExpand] = useState(false)
@@ -51,23 +54,28 @@ function ActThree() {
             </div>
                 </div>
                 <IntroActThree />
-                <SceneInstructionBox description="Scene: a school cafeteria.  Students are all lined up, placing their trays in a bin for cleaning and throwing away their forks." />
+                <SceneInstructionBox description="Scene: a school cafeteria.  Students are all lined up (stage right), placing their trays in a bin for cleaning and throwing away their forks.  Recycling Ruby enters from stage left." />
                 <Act3Line1 />
+                <SceneInstructionBox description="Statistician enters from stage left." />
                 <Act3Line2 />
                 <Act3Line3 />
                 <Act3Line4 />
                 <Act3Line5 />
+                <SceneInstructionBox description="Scene: an art classroom.  There is camera equipment and a bunch of paper dinosaurs because the students have just finished filming a paper dinosaur movie  Students are gathered in the middle and teacher is stage right." />
                 <Act3Line6 />
                 <Act3Line7 />
+                <SceneInstructionBox description="Recycling Ruby enters from stage left holding recycling bin." />
                 <Act3Line8 />
                 <Act3Line9 />
-                <Act3Line4 />
+                <Act3Line4B />
                 <Act3Line5 />
+                <SceneInstructionBox description="Scene: a classroom.  It is a party and the students have decorated with toilet paper.  There is a cabinet near the students, stage right.  The teacher enters from stage left." />
                 <Act3Line10 />
+                <SceneInstructionBox description="Recycling Ruby enters from stage left." />
                 <Act3Line11 />
                 <Act3Line12 />
                 <Act3Line13 />
-                <Act3Line4 />
+                <Act3Line4C />
                 <Act3Line5 />
             </div> 
      </div>

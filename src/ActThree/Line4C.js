@@ -1,6 +1,6 @@
 
-function Act3Line3() {
-    const audio = new Audio("assets/audio/Act3Line3.mp3")
+function Act3Line4C() {
+    const audio = new Audio("assets/audio/Act3Line4.mp3")
 
     
     function playAudio() {
@@ -14,9 +14,9 @@ function Act3Line3() {
 
     return (
       <div>
-        <div className="card wholeGroup">
+        <div className="card">
             <div className="insideCard words">
-                <p><strong>Students (Sadie, Millie, Colton, Moises, Lylee):</strong> Woah!  That's a lot!  We didn't know.</p>
+                <p><strong>Student(Tristyn):</strong> Please recycle.  Everyone please recycle.</p>
             </div>
             <div className="insideCard play" onClick={playAudio}>
                 &#9654;&#65039;
@@ -30,4 +30,4 @@ function Act3Line3() {
     );
   }
   
-  export default Act3Line3;
+  export default Act3Line4C;
