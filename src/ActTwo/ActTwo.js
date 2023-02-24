@@ -51,19 +51,22 @@ function ActTwo() {
                 </div>
             </div>
                 <IntroActTwo />
-                <SceneInstructionBox description="Scene: a pants storefront. People are coming out of the store wearing new pants and throwing their old ones in the trash.   Reusing Rarish watches in confusion and then approaches a group who was about to toss their pants." />
+                <SceneInstructionBox description="Scene: a pants storefront. People are coming out of the store (stage right) wearing new pants and throwing their old ones in the trash.   Reusing Rarish (stage left) watches in confusion and then approaches a group who was about to toss their pants." />
                 <ActTwoLine1 />
                 <ActTwoLine2 />
                 <ActTwoLine3 />
                 <ActTwoLine5 />
+                <SceneInstructionBox description="A mall cafeteria.  The cafeteria worker is behind the serving counter (center stage), customers are on stage right, Reusing Rarish is stage left." />
                 <ActTwoLine6 />
                 <ActTwoLine7 />
                 <ActTwoLine8 />
                 <ActTwoLine9 />
                 <ActTwoLine10 />
+                <SceneInstructionBox description="A mall playground with trampoline.  The janitor starts center stage then storms off past the kids on stage right  Reusing Rarish is stage left." />
                 <ActTwoLine11 />
                 <ActTwoLine12 />
                 <ActTwoLine13 />
+                <SceneInstructionBox description="Kids all gather the trash and make a sculpture." />
                 <ActTwoLine14 />
             </div> 
       </div>
