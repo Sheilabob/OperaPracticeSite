@@ -50,7 +50,7 @@ function ActOne() {
             </div>
                 </div>
                 <IntroActOne />
-                <SceneInstructionBox description="Scene: a town surrounded by tree stumps and just a few trees.  The townspeople are gathered and all look very sad.  Reducing Rya enters from offstage and walks up to them." />
+                <SceneInstructionBox description="Scene: a town surrounded by tree stumps and just a few trees.  The townspeople are gathered (stage right) and all look very sad.  Reducing Rya enters from offstage (stage left) and walks up to them." />
                 <ActOneLine1 />
                 <ActOneLine2 />
                 <ActOneLine3 />
