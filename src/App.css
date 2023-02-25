@@ -127,3 +127,8 @@ p {
   background-color: cornflowerblue;
 }
 
+@media screen and (max-width: 576px) {
+  .doubleParent {
+    flex-wrap: wrap;
+  }
+}
